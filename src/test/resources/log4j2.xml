@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Configuration status="WARN">
+
+    <Properties>
+        <Property name="logPath">./logs</Property>
+        <Property name="rollingFileName">opencart</Property>
+    </Properties>
+    
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        
+        <RollingFile name="rollingFile" fileName="${logPath}/${rollingFileName}.log" filePattern="${logPath}/${rollingFileName}_%d{yyyy-MM-dd_HH-mm-ss}.log">
+            <PatternLayout pattern="%d{HH:mm:ss} [%t] [%-5level] %logger{36} - %msg%n" />
+            <Policies>
+            	<SizeBasedTriggeringPolicy size="10MB"/>
+            	<OnStartupTriggeringPolicy />
+            </Policies>
+        </RollingFile>
+        
+    </Appenders>
+   
+    <Loggers>
+        <Root level="Info">
+           <!--  <AppenderRef ref="console" /> -->
+            <AppenderRef ref="rollingFile" />
+        </Root>
+    </Loggers>
+</Configuration>
+
+<!-- 
+23:04:05.123 [main] [INFO]  MyLogger - Application started successfully
+23:04:06.456 [worker-thread-1] [WARN]  MyLogger - Cache size exceeded, clearing old entries
+23:04:07.789 [worker-thread-2] [ERROR] MyLogger - Unexpected exception occurred 
+-->
+
+<!-- <Configuration status="WARN">
+    <Properties>
+        <Property name="logPath">target/cucumber-logs</Property>
+        <Property name="rollingFileName">cucumber</Property>
+    </Properties>
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%highlight{%-5level}] %d{DEFAULT} %c{1}.%M() - %msg%n%throwable{short.lineNumber}" />
+        </Console>
+        <RollingFile name="rollingFile" fileName="${logPath}/${rollingFileName}.log" filePattern="${logPath}/${rollingFileName}_%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="[%highlight{%-5level}] %d{DEFAULT} %c{1}.%M() - %msg%n%throwable{short.lineNumber}" />
+            <Policies>
+                < Causes a rollover if the log file is older than the current JVM's start time >
+                <OnStartupTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG" additivity="false">
+            <AppenderRef ref="console" />
+            <AppenderRef ref="rollingFile" />
+        </Root>
+    </Loggers>
+</Configuration> -->
+
+<!-- 
+[INFO ] 2025-05-27 23:04:05 MyClass.myMethod() - Application started successfully
+[WARN ] 2025-05-27 23:04:06 MyClass.myMethod() - Cache size exceeded, clearing old entries
+[ERROR] 2025-05-27 23:04:07 MyClass.myMethod() - Unexpected exception occurred
+	
+-->
