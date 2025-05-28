@@ -5,13 +5,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.RegistrationPageTest">
+      <class name="testCases.LoginTest_dataDriven">
         <methods>
           <include name="setUp"/>
-          <include name="Registration_Test"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.RegistrationPageTest -->
+      </class> <!-- testCases.LoginTest_dataDriven -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

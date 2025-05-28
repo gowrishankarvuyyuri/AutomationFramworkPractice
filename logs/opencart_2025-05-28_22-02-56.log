@@ -1,0 +1,17 @@
+22:02:56 [main] [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gowri\GowriShankar_WorkSpace\HybridAutomationFramework\src\test\java\testCases\grouping.xml
+
+22:02:56 [main] [INFO ] testCases.RegistrationPageTest - Initializing the Driver setUp
+22:02:58 [main] [INFO ] testCases.RegistrationPageTest - Launching Browser
+22:02:58 [main] [INFO ] testCases.RegistrationPageTest - In Home Page choosing Registration
+22:02:59 [main] [INFO ] testCases.RegistrationPageTest - Registration Opened and Placing Details
+22:02:59 [main] [INFO ] testCases.RegistrationPageTest - Clicking Continue Button for Registering the User
+22:03:00 [main] [INFO ] testCases.RegistrationPageTest - Actual Text : Your Account Has Been Created!
+22:03:00 [main] [INFO ] testCases.RegistrationPageTest - Closing the Browser
+22:03:00 [main] [INFO ] testCases.LoginTest - Initializing the Driver setUp
+22:03:01 [main] [INFO ] testCases.LoginTest - Launching Browser
+22:03:02 [main] [INFO ] testCases.LoginTest -  Login Test Case Starts 
+22:03:02 [main] [INFO ] testCases.LoginTest -  Performing Actions on Home Page for loginTest 
+22:03:02 [main] [INFO ] testCases.LoginTest -  Performing Actions at loginTest 
+22:03:05 [main] [INFO ] testCases.LoginTest -  Clicking logOut button in AccountPafe 
+22:03:06 [main] [INFO ] testCases.LoginTest - Closing the Browser

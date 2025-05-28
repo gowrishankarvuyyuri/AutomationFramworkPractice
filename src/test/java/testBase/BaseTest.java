@@ -23,7 +23,7 @@ public class BaseTest {
 	public FileReader fr;
 	public Properties prop;
 	
-	@BeforeClass
+	@BeforeClass (groups = {"sanity", "regression","master"})
 	@Parameters({"os", "browser"})
 	public void setUp(String os, String browser) throws IOException {
 		
@@ -50,7 +50,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
-	@AfterClass
+	@AfterClass (groups = {"sanity", "regression", "master"})
 	public void tearDown() {
 		log.info("Closing the Browser");
 		driver.quit();

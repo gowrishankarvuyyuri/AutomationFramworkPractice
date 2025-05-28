@@ -18,9 +18,12 @@ public class HomePage extends BasePage{
 	/*locators*/
 	@FindBy(xpath="(//span[normalize-space()='My Account'])[1]") 
 	WebElement my_account_click;
+	
 	@FindBy(xpath="//a[normalize-space()='Register']") 
 	WebElement register_click;	
 	
+	@FindBy(xpath="//a[normalize-space()='Login']")
+	WebElement login_click;
 	
 	/*Acrtions*/
 	public void my_account_click() {
@@ -29,5 +32,9 @@ public class HomePage extends BasePage{
 	
 	public void register_click() {
 		register_click.click();
+	}
+	
+	public void login_click() {
+		login_click.click();
 	}
 }

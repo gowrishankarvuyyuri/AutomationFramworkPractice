@@ -9,7 +9,7 @@ import testBase.BaseTest;
 
 public class RegistrationPageTest extends BaseTest{
 
-	@Test
+	@Test(groups = {"regression", "master"})
 	void Registration_Test() {
 		
 		log.info("In Home Page choosing Registration");

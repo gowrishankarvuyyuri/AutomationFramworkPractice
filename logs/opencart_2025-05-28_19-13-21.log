@@ -1,0 +1,71 @@
+19:13:21 [main] [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gowri\GowriShankar_WorkSpace\HybridAutomationFramework\src\test\java\testCases\desired_browser.xml
+
+19:13:21 [main] [INFO ] testCases.LoginTest_dataDriven - Initializing the Driver setUp
+19:13:22 [main] [INFO ] testCases.LoginTest_dataDriven - Launching Browser
+19:13:24 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+19:13:24 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+19:13:24 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+19:13:24 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+19:13:34 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3b02ff616710265643e98d7e86bb934, findElement {value=//h2[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53088/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3b02ff616710265643e98d7e86bb934
+19:13:35 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+19:13:35 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+19:13:35 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+19:13:35 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+19:13:46 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3b02ff616710265643e98d7e86bb934, findElement {value=//h2[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53088/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3b02ff616710265643e98d7e86bb934
+19:13:46 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+19:13:46 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+19:13:46 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+19:13:47 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+19:13:57 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3b02ff616710265643e98d7e86bb934, findElement {value=//h2[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53088/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3b02ff616710265643e98d7e86bb934
+19:13:57 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+19:13:57 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+19:13:58 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+19:13:58 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+19:14:09 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3b02ff616710265643e98d7e86bb934, findElement {value=//h2[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53088/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3b02ff616710265643e98d7e86bb934
+19:14:09 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+19:14:09 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+19:14:09 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+19:14:10 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+19:14:21 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3b02ff616710265643e98d7e86bb934, findElement {value=//h2[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53088/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3b02ff616710265643e98d7e86bb934
+19:14:21 [main] [INFO ] testCases.LoginTest_dataDriven - Closing the Browser

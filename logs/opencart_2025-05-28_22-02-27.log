@@ -1,0 +1,10 @@
+22:02:27 [main] [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gowri\GowriShankar_WorkSpace\HybridAutomationFramework\src\test\java\testCases\grouping.xml
+
+22:02:27 [main] [INFO ] testCases.LoginTest - Initializing the Driver setUp
+22:02:29 [main] [INFO ] testCases.LoginTest - Launching Browser
+22:02:30 [main] [INFO ] testCases.LoginTest -  Login Test Case Starts 
+22:02:30 [main] [INFO ] testCases.LoginTest -  Performing Actions on Home Page for loginTest 
+22:02:30 [main] [INFO ] testCases.LoginTest -  Performing Actions at loginTest 
+22:02:33 [main] [INFO ] testCases.LoginTest -  Clicking logOut button in AccountPafe 
+22:02:34 [main] [INFO ] testCases.LoginTest - Closing the Browser
