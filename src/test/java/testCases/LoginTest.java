@@ -10,7 +10,7 @@ import testBase.BaseTest;
 
 public class LoginTest extends BaseTest{
 
-	@Test(groups = {"sanity","master"}, dependsOnGroups = {"regression"})
+	@Test(groups = {"sanity","master"}, alwaysRun = true)
 	void loginTest() {
 		
 		log.info(" Login Test Case Starts ");

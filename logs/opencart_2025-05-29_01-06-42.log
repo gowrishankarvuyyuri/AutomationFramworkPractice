@@ -1,0 +1,90 @@
+01:06:42 [main] [INFO ] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\gowri\GowriShankar_WorkSpace\HybridAutomationFramework\src\test\java\testCases\extentReport_Listner.xml
+
+01:06:42 [main] [INFO ] testCases.RegistrationPageTest - Initializing the Driver setUp
+01:06:45 [main] [INFO ] testCases.RegistrationPageTest - Launching Browser
+01:06:46 [main] [INFO ] testCases.RegistrationPageTest - In Home Page choosing Registration
+01:06:46 [main] [INFO ] testCases.RegistrationPageTest - Registration Opened and Placing Details
+01:06:47 [main] [INFO ] testCases.RegistrationPageTest - Clicking Continue Button for Registering the User
+01:06:48 [main] [INFO ] testCases.RegistrationPageTest - Actual Text : Your Account Has Been Created!
+01:06:48 [main] [INFO ] testCases.RegistrationPageTest - Closing the Browser
+01:06:48 [main] [INFO ] testCases.LoginTest_dataDriven - Initializing the Driver setUp
+01:06:49 [main] [INFO ] testCases.LoginTest_dataDriven - Launching Browser
+01:06:50 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+01:06:50 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+01:06:51 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+01:06:51 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+01:07:02 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : no such element: Unable to locate element: {"method":"xpath","selector":"//h2[normalize-space()='My Account']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=//h2[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:02 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+01:07:02 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+01:07:02 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+01:07:02 [main] [INFO ] testCases.LoginTest_dataDriven -  Clicking logOut button in AccountPafe 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven - 		--)Failed at Verifying the AccountPage Status : invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=//h2[normalize-space()='My Account']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven -  	--)Navigating to logIn failed Reason : invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=(//span[normalize-space()='My Account'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven -       --)login Test Failed Reason : invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven -  	--)Navigating to logIn failed Reason : invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=(//span[normalize-space()='My Account'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven -       --)login Test Failed Reason : invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Login Test Case Starts 
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions on Home Page for loginTest 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven -  	--)Navigating to logIn failed Reason : invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=(//span[normalize-space()='My Account'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven -  Performing Actions at loginTest 
+01:07:06 [main] [ERROR] testCases.LoginTest_dataDriven -       --)login Test Failed Reason : invalid session id
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2316ea58dba68681b1c765d3cd0666f7, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\gowri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49713}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49713/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2316ea58dba68681b1c765d3cd0666f7
+01:07:06 [main] [INFO ] testCases.LoginTest_dataDriven - Closing the Browser
