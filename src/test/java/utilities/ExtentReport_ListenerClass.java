@@ -29,7 +29,7 @@ public class ExtentReport_ListenerClass implements ITestListener{
 		
 		 //dynamic time fetching
 		 String dynamicTime = (new SimpleDateFormat("yyyy.MM.dd - HH.mm.ss")).format(new Date());
-		 String filePath = System.getProperty("user.dir") + "\\extent_reports\\" + "openCart " + dynamicTime + ".html" ;
+		 String filePath = System.getProperty("user.dir") + "/extent_reports/openCart " + dynamicTime + ".html" ;
 		 
 		 esparkReporter = new ExtentSparkReporter(filePath);
 		 esparkReporter.config().setDocumentTitle("Automation Test Report");
