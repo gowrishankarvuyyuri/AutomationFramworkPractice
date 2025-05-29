@@ -52,7 +52,7 @@ import utilities.DataProvider_Class;
 				else if(check.equals("Invalid") && !text.equals("My Account"))
 					Assert.assertTrue(true);
 				else
-					Assert.assertTrue(true);
+					Assert.assertTrue(false);
 				
 			}
 			catch(Exception e) {
