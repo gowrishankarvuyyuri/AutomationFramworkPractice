@@ -1,7 +1,0 @@
-17:39:28 [main] [INFO ] testCases.RegistrationPageTest - Initializing the Driver setUp
-17:39:30 [main] [INFO ] testCases.RegistrationPageTest - Launching Browser
-17:39:31 [main] [INFO ] testCases.RegistrationPageTest - In Home Page choosing Registration
-17:39:32 [main] [INFO ] testCases.RegistrationPageTest - Registration Opened and Placing Details
-17:39:32 [main] [INFO ] testCases.RegistrationPageTest - Clicking Continue Button for Registering the User
-17:39:33 [main] [INFO ] testCases.RegistrationPageTest - Actual Text : Your Account Has Been Created!
-17:39:33 [main] [INFO ] testCases.RegistrationPageTest - Closing the Browser

@@ -1,0 +1,14 @@
+01:20:35 [main] [INFO ] testCases.RegistrationPageTest - Initializing the Driver setUp
+01:20:37 [main] [INFO ] testCases.RegistrationPageTest - Launching Browser
+01:20:38 [main] [INFO ] testCases.RegistrationPageTest - In Home Page choosing Registration
+01:20:39 [main] [INFO ] testCases.RegistrationPageTest - Registration Opened and Placing Details
+01:20:40 [main] [INFO ] testCases.RegistrationPageTest - Clicking Continue Button for Registering the User
+01:20:41 [main] [INFO ] testCases.RegistrationPageTest - Actual Text : Your Account Has Been Created!
+01:20:41 [main] [INFO ] testCases.RegistrationPageTest - Closing the Browser
+01:20:41 [main] [INFO ] testCases.LoginTest - Initializing the Driver setUp
+01:20:42 [main] [INFO ] testCases.LoginTest - Launching Browser
+01:20:43 [main] [INFO ] testCases.LoginTest -  Login Test Case Starts 
+01:20:43 [main] [INFO ] testCases.LoginTest -  Performing Actions on Home Page for loginTest 
+01:20:43 [main] [INFO ] testCases.LoginTest -  Performing Actions at loginTest 
+01:20:46 [main] [INFO ] testCases.LoginTest -  Clicking logOut button in AccountPafe 
+01:20:46 [main] [INFO ] testCases.LoginTest - Closing the Browser
